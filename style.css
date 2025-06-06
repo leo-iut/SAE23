@@ -1,0 +1,191 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Sets a modern font. */
+    margin: 0; /* Removes default outer spacing. */
+    padding: 0; /* Removes default inner spacing. */
+    background-color: #eef1f5; /* Light grey background. */
+    color: #333; /* Dark grey text color. */
+    line-height: 1.6; /* Improves text readability. */
+}
+
+header {
+    background-color: #2c3e50; /* Dark blue-grey background. */
+    color: #fff; /* White text. */
+    padding: 1.5em 0; /* Vertical padding. */
+    text-align: center; /* Centers header content. */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Adds a subtle shadow. */
+}
+
+header h1 {
+    margin: 0; /* Removes default margin. */
+    font-size: 2.2em; /* Larger title font size. */
+}
+
+nav ul {
+    list-style: none; /* Removes bullet points. */
+    padding: 0; /* Removes default padding. */
+    margin: 1em 0 0; /* Adds top margin. */
+    display: flex; /* Arranges items horizontally. */
+    justify-content: center; /* Centers navigation items. */
+    flex-wrap: wrap; /* Allows items to wrap. */
+}
+
+nav ul li {
+    margin: 0 15px; /* Horizontal spacing between items. */
+}
+
+nav ul li a {
+    color: #fff; /* White link text. */
+    text-decoration: none; /* Removes underline. */
+    font-weight: bold; /* Bold text. */
+    padding: 5px 10px; /* Padding for links. */
+    border-radius: 4px; /* Slightly rounded corners. */
+    transition: background-color 0.3s ease; /* Smooth hover effect. */
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #34495e; /* Background change on hover/active. */
+}
+
+main {
+    padding: 20px; /* Inner spacing. */
+    margin: 20px auto; /* Centers content block. */
+    max-width: 900px; /* Sets max width for readability. */
+    background-color: #fff; /* White background. */
+    border-radius: 8px; /* Rounded corners. */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Adds shadow. */
+}
+
+section {
+    margin-bottom: 30px; /* Space between sections. */
+    padding: 20px; /* Inner spacing. */
+    background-color: #fdfdfd; /* Slightly off-white background. */
+    border: 1px solid #ddd; /* Light grey border. */
+    border-radius: 6px; /* Rounded corners. */
+}
+
+section h2 {
+    color: #2c3e50; /* Dark heading color. */
+    border-bottom: 2px solid #3498db; /* Blue underline. */
+    padding-bottom: 10px; /* Space above underline. */
+    margin-top: 0; /* Removes default top margin. */
+    margin-bottom: 20px; /* Space below heading. */
+}
+
+section h3 {
+    color: #34495e; /* Sub-heading color. */
+    margin-top: 25px; /* Space above sub-heading. */
+    margin-bottom: 15px; /* Space below sub-heading. */
+}
+
+p {
+    margin-bottom: 10px; /* Space below paragraphs. */
+}
+
+table {
+    width: 100%; /* Full width table. */
+    border-collapse: collapse; /* Removes cell spacing. */
+    margin-top: 20px; /* Space above table. */
+}
+
+table, th, td {
+    border: 1px solid #e0e0e0; /* Light grey borders for cells. */
+}
+
+th, td {
+    padding: 12px 15px; /* Inner spacing for cells. */
+    text-align: left; /* Left-aligns text. */
+}
+
+th {
+    background-color: #f2f2f2; /* Light background for headers. */
+    color: #555; /* Header text color. */
+    font-weight: bold; /* Bold header text. */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row colors. */
+}
+
+tr:hover {
+    background-color: #f0f0f0; /* Row highlight on hover. */
+}
+
+form {
+    margin-top: 20px; /* Space above forms. */
+    padding: 20px; /* Inner spacing. */
+    background-color: #ecf0f1; /* Light background for forms. */
+    border-radius: 6px; /* Rounded corners. */
+    border: 1px solid #cce7f0; /* Light border. */
+}
+
+form label {
+    display: block; /* Each label on its own line. */
+    margin-bottom: 8px; /* Space below labels. */
+    font-weight: bold; /* Bold label text. */
+    color: #444; /* Label text color. */
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="password"],
+form input[type="datetime-local"],
+form select {
+    width: calc(100% - 22px); /* Full width minus padding/border. */
+    padding: 10px; /* Inner spacing for inputs. */
+    margin-bottom: 15px; /* Space below inputs. */
+    border: 1px solid #ccc; /* Light grey border. */
+    border-radius: 4px; /* Rounded corners. */
+    box-sizing: border-box; /* Includes padding/border in width. */
+}
+
+form input[type="submit"] {
+    background-color: #3498db; /* Blue button background. */
+    color: white; /* White text. */
+    padding: 12px 20px; /* Inner spacing. */
+    border: none; /* No border. */
+    border-radius: 5px; /* Rounded corners. */
+    cursor: pointer; /* Pointer cursor on hover. */
+    font-size: 1em; /* Button font size. */
+    transition: background-color 0.3s ease; /* Smooth hover effect. */
+}
+
+form input[type="submit"]:hover {
+    background-color: #2980b9; /* Darker blue on hover. */
+}
+
+.message {
+    padding: 10px; /* Inner spacing for messages. */
+    margin-bottom: 20px; /* Space below messages. */
+    border-radius: 4px; /* Rounded corners. */
+    font-weight: bold; /* Bold text. */
+}
+
+.message.success {
+    background-color: #d4edda; /* Light green for success. */
+    color: #155724; /* Dark green text. */
+    border-color: #c3e6cb; /* Green border. */
+}
+
+.message.error {
+    background-color: #f8d7da; /* Light red for errors. */
+    color: #721c24; /* Dark red text. */
+    border-color: #f5c6cb; /* Red border. */
+}
+
+.message.info {
+    background-color: #d1ecf1; /* Light blue for info. */
+    color: #0c5460; /* Dark blue text. */
+    border-color: #bee5eb; /* Blue border. */
+}
+
+footer {
+    text-align: center; /* Centers footer text. */
+    padding: 1.5em 0; /* Vertical padding. */
+    background-color: #2c3e50; /* Dark blue-grey background. */
+    color: #fff; /* White text. */
+    margin-top: 30px; /* Space above footer. */
+    font-size: 0.9em; /* Slightly smaller text. */
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2); /* Adds a subtle shadow above. */
+}
