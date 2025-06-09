@@ -33,8 +33,8 @@ session_start(); // Start the session to check if a user is logged in and what t
     <main>
         <section>
             <h2>À propos de ce projet</h2>
-            <p>Cette plateforme a été développée dans le cadre de la SAÉ23 de l'IUT de Blagnac. Elle vise à visualiser les données de capteurs répartis dans les bâtiments de l'IUT.</p>
-            <p>Elle intègre une chaîne de traitement des données via Docker (Mosquitto, Node-RED, InfluxDB, Grafana) et un site web dynamique avec une base de données MySQL.</p>
+            <p>Ce site web a été développée dans le cadre de la SAÉ23 de l'IUT de Blagnac. Il vise à visualiser les données de capteurs répartis dans les bâtiments de l'IUT.</p>
+            <p>Il intègre une chaîne de traitement des données via Docker (Mosquitto, Node-RED, InfluxDB, Grafana) et un site web dynamique ici présent avec une base de données MySQL.</p>
         </section>
 
         <section>
@@ -77,7 +77,7 @@ session_start(); // Start the session to check if a user is logged in and what t
         <section>
             <h2>Mentions Légales</h2>
             <p>Projet réalisé par des étudiants du Département Réseaux et Télécommunications de l'IUT de Blagnac.</p>
-            <p>Contact : khalid.massaoudi@univ-tlse2.fr</p>
+            <p>Contact : leo.teyssedre.iut@gmail.com</p>
             <p>&copy; <?php echo date("Y"); ?> IUT de Blagnac. Tous droits réservés.</p>
         </section>
     </main>
