@@ -54,7 +54,7 @@ session_start(); // Start the session to enable dynamic navigation links based o
 
             <h3>Membre 3 : Remi GAUTIER</h3>
             <p><strong>Travail effectué :</strong> J’ai effectué le diagramme de GANTT prévisionnel avec l’aide de Léo. J’ai réalisé une partie du flow Node-Red et Grafana. </p>
-            <p><strong>Problèmes rencontrés :</strong>J’ai eu du mal à savoir comment construire les schémas Nod-Red de façon à récupérer les données et les afficher sur un schéma. </p>
+            <p><strong>Problèmes rencontrés :</strong>J’ai eu du mal à savoir comment construire les schémas Node-Red de façon à récupérer les données et les afficher sur un schéma. </p>
             <p><strong>Solutions proposées :</strong>Pour surmonter ces obstacles, j’ai effectué des recherches approfondies et repris le TP réalisé précédemment dans le cadre de la SAÉ 23, ce qui m’a permis de mieux comprendre les concepts et d’optimiser les schémas. J’ai également consulté la documentation officielle de Node-RED et Grafana pour affiner la configuration et assurer une bonne récupération des données.</p>
 
             <h3>Membre 4 : Louis PORTET</h3>

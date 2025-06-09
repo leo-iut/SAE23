@@ -49,6 +49,7 @@ mysqli_close($conn); // Close the database connection.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consultation - Plateforme IoT SAÉ23</title>
     <link rel="stylesheet" href="style.css">
+	<meta http-equiv="refresh" content="60">
 </head>
 <body>
     <header>
